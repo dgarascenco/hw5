@@ -10,7 +10,7 @@ module.exports = class Request {
             const res = {
                 data: "Some dummy reponse data"
             }
-            setTimeout(  this.callback, 5000, res.data)
+            setTimeout(  this.callback, 5000, res)
         }
     }
 
